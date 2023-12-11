@@ -1,5 +1,5 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["LLM", "GPT", "Transformer", "ChatGPT", "Multi-Modal", "Multimodal", "Large Language Models", "Vision and Language"];
+let titles_model = ["LLM", "GPT", "Transformer", "ChatGPT", "Multi-Modal", "Multimodal", "Large Language Models", "Vision and Language", "Instruction Tuning", "Instruction following"];
 let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised", "Multi-Modalities"];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Tat-Seng Chua", "Long Chen", "Ilya Sutskever", "Di Hu", "Kaiming He", "Yi Ma", "Yuan Li", "Steven Hoi", "Ziwei Liu"];
