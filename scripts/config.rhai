@@ -1,12 +1,12 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["LLM", "GPT", "Transformer", "ChatGPT", "Multi-Modal", "Multimodal"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
+let titles_model = ["LLM", "GPT", "Transformer", "ChatGPT", "Multi-Modal", "Multimodal", "Large Language Models", "Vision and Language"];
+let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised", "Multi-Modalities"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Tat-Seng Chua", "Long Chen", "Ilya Sutskever", "Di Hu"];
+let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Tat-Seng Chua", "Long Chen", "Ilya Sutskever", "Di Hu", "Kaiming He", "Yi Ma", "Yuan Li", "Steven Hoi", "Ziwei Liu"];
 
 let conferences = [
     // AI
-    "AAAI", "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
+    "AAAI", "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCAI", "IJCNN", "IROS", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
     // CV
     "3DV", "ACCV", "ACM MM", "BMVC", "CVPR", "ECCV", "ICCV", "ICDAR", "ICIP", "ICME", "ICPR", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV",
     // DM
