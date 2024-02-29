@@ -1,49 +1,6 @@
 <p align="center">
-<h1 align="center"> <img src="./imgs/icon/ai.png" width="30" />MyArxiv</h1>
+<h1 align="center">Arxiv-Pusher</h1>
 </p>
-
-
-<p align="center">
-  	<a href="https://img.shields.io/badge/version-v0.1.0-blue">
-      <img alt="version" src="https://img.shields.io/badge/version-v0.1.0-blue?color=FF8000?color=009922" />
-    </a>
-  <a >
-       <img alt="Status-building" src="https://img.shields.io/badge/Status-building-blue" />
-  	</a>
-  <a >
-       <img alt="PRs-Welcome" src="https://img.shields.io/badge/PRs-Welcome-red" />
-  	</a>
-   	<a href="https://github.com/MLNLP-World/MyArxiv/stargazers">
-       <img alt="stars" src="https://img.shields.io/github/stars/MLNLP-World/MyArxiv" />
-  	</a>
-  	<a href="https://github.com/MLNLP-World/MyArxiv/network/members">
-       <img alt="FORK" src="https://img.shields.io/github/forks/MLNLP-World/MyArxiv?color=FF8000" />
-  	</a>
-    <a href="https://github.com/MLNLP-World/MyArxiv/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/MLNLP-World/MyArxiv?color=0088ff"/>
-    </a>
-    <br />
-</p>
-<div align="center">
-<p align="center">
-  <a href="#项目动机">项目动机</a>/
-  <a href="#项目简介">项目简介</a>/
-  <a href="#项目预览">项目预览</a>/
-  <a href="#使用说明">使用说明</a>/
-  <a href="#快速上手指南">快速上手指南</a>/
-  <a href="#定制化指南">定制化指南</a>/
-  <a href="#参考资源">参考资源</a>/
-  <a href="#致谢">致谢</a>/
-  <a href="#组织者">组织者</a>/
-  <a href="#贡献者">贡献者</a>
-</p>
-</div>
-
-
-
-
-
----
 
 ## <img src="./imgs/icon/motivation.png" width="25" />项目动机
 
@@ -99,45 +56,6 @@
 - 使用`Tab`键展开/折叠所有文章。
 - 实现了对于Latex公式的渲染。
 - 支持深色/浅色模式。
-
-## <img src="./imgs/icon/catalogue.png" width="25" />快速上手指南
-
-使用MyArxiv实现个人定制的Arxiv，使用默认设置快速上手，步骤如下：
-
-<details open="open">
-  <summary>Get Start</summary>
-  <ul>
-       <li><a href="#create-repo"> ➤ 1. 建立仓库</a></li>
-       <li><a href="#modify-cachr-url"> ➤ 2. 修改cachr url</a></li>
-       <li><a href="#github-pages-start"> ➤ 3. Github pages设置</a></li>
-  </ul>
-</details>
-
-<h4 id="create-repo">1. 建立仓库</h4>
-
-当前MyArxiv仓库为模版仓库，当我们建立属于自己的MyArxiv时，需要从当前模版新建仓库到自己的Github账号下。
-
-<img src="./imgs/tutorial/1.1.1.png" style="zoom:50%;" />
-
-假设仓库地址为`github.com/username/reponame`，便于后续说明。
-
-<img src="./imgs/tutorial/1.1.2.png" style="zoom:40%;" />
-
-<h4 id="modify-cachr-url">2. 修改cachr url</h4>
-
-修改`config.toml`中文件中的`cache_url`设置（MyArxiv数据缓存地址，该地址设置与你托管当前项目的网站地址相关），将其对应的Github账户，从`MLNLP-World`修改为自己当前的账户，如下图所示：
-
-<img src="./imgs/tutorial/1.2.1.png" style="zoom:50%;" />
-
-<h4 id="github-pages-start">3. Github pages设置</h4>
-
-进入当前Repo对应的Settings后，进入Pages页面，设置`Branch`为`gh-pages`分支。
-
-<img src="./imgs/tutorial/1.3.1.png" style="zoom:40%;" />
-
-使用至此，你已经基于`MyArxiv`的默认配置实现了快速上手，直接访问Github Pages对应的网页`username.github.io/MyArxiv`，可以查看属于自己的`MyArxiv`:
-
-<img src="./imgs/tutorial/1.3.2.png" style="zoom:40%;" />
 
 ## <img src="./imgs/icon/cog.png" width="25" />定制化指南
 
