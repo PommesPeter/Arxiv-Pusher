@@ -5,7 +5,7 @@ let titles =  titles_model + titles_method + titles_type;
 let authors_array = [
     "Yann LeCun", "Geoffrey Hinton", "Tat-Seng Chua", "Long Chen", "Ilya Sutskever", "Di Hu", "Kaiming He", "Yi Ma", 
     "Yuan Li", "Steven Hoi", "Ziwei Liu", "Yuandong Tian", "Saining Xie", "Yann LeCun", "Hao Liu", "Jeff Dean", "Xipeng Qiu",
-     "Tim Brooks", "William Peebles", "Li Fei-Fei", "Yi Tay", "Peng Jin"
+     "Tim Brooks", "William Peebles", "Li Fei-Fei", "Yi Tay", "Peng Jin", "Limin Wang", "Xinggang Wang"
 ];
 
 let conferences = [
