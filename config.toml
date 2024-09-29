@@ -35,7 +35,7 @@ title = "Artificial Intelligent"
 [[sources]]
 limit = 240
 category = "cs.RO"
-title = "Artificial Intelligent"
+title = "Robotics"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
